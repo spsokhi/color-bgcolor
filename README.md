@@ -35,4 +35,4 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ## Contact
 + If you have any questions or suggestions, feel free to reach out:
 
-+ [GitHub:](https://github.com/spsokhi)
++ [GitHub: spsokhi](https://github.com/spsokhi)
