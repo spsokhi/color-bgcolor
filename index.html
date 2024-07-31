@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Background Color</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onkeyup="document.body.style.backgroundColor = document.f.a.value">
+    <div class="container">
+        <h1>Change Background Color</h1>
+        <form name="f">
+            <input type="text" name="a" placeholder="Enter a color or hex code">
+        </form>
+    </div>
+    <script>
+        document.f.a.addEventListener('keyup', function() {
+            document.body.style.backgroundColor = document.f.a.value;
+        });
+    </script>
+</body>
+</html>
